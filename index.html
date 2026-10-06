@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculatrice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculatrice">
+    <div class="affichage" id="affichage">0</div>
+
+    <div class="ligne">
+      <button class="btn clear large" id="clear">AC</button>
+      <button class="btn retour" id="retour">⌫</button>
+      <button class="btn operateur" data-op="/">÷</button>
+    </div>
+    <div class="ligne">
+      <button class="btn chiffre" data-chiffre="7">7</button>
+      <button class="btn chiffre" data-chiffre="8">8</button>
+      <button class="btn chiffre" data-chiffre="9">9</button>
+      <button class="btn operateur" data-op="*">×</button>
+    </div>
+    <div class="ligne">
+      <button class="btn chiffre" data-chiffre="4">4</button>
+      <button class="btn chiffre" data-chiffre="5">5</button>
+      <button class="btn chiffre" data-chiffre="6">6</button>
+      <button class="btn operateur" data-op="-">−</button>
+    </div>
+    <div class="ligne">
+      <button class="btn chiffre" data-chiffre="1">1</button>
+      <button class="btn chiffre" data-chiffre="2">2</button>
+      <button class="btn chiffre" data-chiffre="3">3</button>
+      <button class="btn operateur" data-op="+">+</button>
+    </div>
+    <div class="ligne">
+      <button class="btn chiffre large" data-chiffre="0">0</button>
+      <button class="btn point" id="point">.</button>
+      <button class="btn egal" id="egal">=</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
